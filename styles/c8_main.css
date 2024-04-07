@@ -214,3 +214,27 @@ footer p {
 		column-count: 2;
 	}
 }
+
+#mobile_menu {
+	display: none;
+}
+
+@media only screen and (max-width: 550px) {
+
+	#nav_menu {
+		display: none;
+	}
+
+	#mobile_menu {
+		display: block;
+	}
+
+	.slicknav_menu {
+		background-color: #800000 !important;
+	}
+
+}
+
+@media only screen and (max-width: 250px) {
+	font-size: 90%;
+}
